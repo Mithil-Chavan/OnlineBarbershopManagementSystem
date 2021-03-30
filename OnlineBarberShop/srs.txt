@@ -1,0 +1,148 @@
+Introduction
+
+Purpose:
+	The Online Barber shop for saloon shop web appliction is inteneded to provide complete solutions for vendors
+        as well as customers through a single get way using the internet.The E-Barber Shop System allows customer to register and login. After that customer can select the location after selecting the location he can select shop he prefer. He can select the services that he wants from that shop.
+ He can also select multiple services after that he can select the time slot as he prefer and book the appointment.
+
+Scope:
+•	Customer can login to the system.
+•	Select the location of shop.
+•	Can view list of shops at that location.
+•	Can select the shop.
+•	From selected shop can select multiple services.
+•	After selecting services he can time slot.
+•	Can book the appointment
+
+Definitions:
+	   OBS --> 	Online Barber shop
+	   SRS --> 	Software Requirement Specification
+	   GUI---> 	Graphical User Interface
+	   Portal-->    Personalized Website
+	   Stackholder--> The person who will participate in the System. And Onwer of system
+				Ex.  Customer, Adminstrator , Shopper
+	   UML--->	Software Engineering Notation for visualising System in the form diagrams
+ 	   SSL--->	Secure Socket Layer used for providing restricted access to application.
+	   BOD--->      Board Of Directors (Management).
+           RDBMS -->    Relational Dadabase Management System.
+	   CLUSTERS---> Group of independent servers.	
+
+Overview:
+	This System provides an easy solution for  customer's to get an appointment in hair salon and spa's.and get easily salon services.
+        
+
+Additional Information:
+	The system work on internet server, so it will  be operated by any end user for  getting services with secure platform.
+        This system protects the integrity of the shop owners  and customers provides easy return's policies and offers.
+        
+	
+General Description:
+	The Online barber shop  application helps to manage the appointments of customers.
+	The online barber shop system will use the internet as the sole method for giving services  to its consumers.
+	
+	
+Functional Requirement:
+	This section provides requirement overview of the system. Various functional modules that can be implemented by 
+	the system will be-
+	
+	Description:
+	Registration if customer wants to get the services then he/she must be registered, Unregistered user have to registered first.
+        Login Customer logins to the system by entering valid user id and password for shopping.
+	End User can Browse the location select shop and get the services like hair cutting ,massage .customers also get the prices of the services as he/she wants
+	Logout after the payment of the product the customer will logged out.
+	The term client/server refers primarily to an architecture or logical division of responsibilities, 
+        the client is the application (also known as the front-end), and the server is the RDBMS (also known as the back-end).
+        A client/server system is a distributed system in which,Some sites are client sites and others are server sites.
+        All the data resides at the server sites.
+        All applications execute at the client sites.
+        
+
+Technical Issues:
+	This system will work on client-Server architecture. It will require an internet server.
+	The system should support some commonly used browser such as Chrome etc.
+	Interface Requirement Various interfaces for the product could be 
+	1.Login Page, 
+	2.Registration form
+    
+		
+ Hardware Interface:
+	The System must run over the internet,
+        All the hardware shall require to connect to internet will be hardware interface for the system.
+		e.g. modem,  WAN, LAN
+		Specialized Server Infrastructure Hardware
+        The system should use distrubuted servers i.e cloud for managing large amount of data so as to make it appear as single unit for end-user.
+        The system should have proper clusters for backup.
+		
+ Software Interface:
+	The system is on server so it requires the any scripting language like JSP or  PHP or ASP, ETC.
+        The system should be able to exchange data using XML, JASON or any advance technology.
+	The system require DataBase also for the store the any transaction of the system like MySql or oracle, or SQL server etc.
+
+Performance Requirement:
+	There is no  performance requirement in this system, because the server request  and respone to client is totally based on internet connection of enduser.
+
+Design Constrains:
+	This system should be developed using  Standard Web Page Development Tool , which conforms GUI standards such like HTML, XML, JSON,etc.
+        The system should support various RDMS and Cloud Technologies.
+
+
+Non-Functional Requirements
+
+1.Security:
+	  SSL
+	The System use SSL (Secure Socket Layer) in all trancations that include any confidential customer information.
+	The system must automcatically log out all customers after a period of inactivity.
+	The system should not leave any cookies on the customer's computer containing users's password.
+	The system's back-end servers shall  only be accessible to authenticated administrators.
+	Sensitive data will be encrypted  before being sent onver insecure connections like internet.
+        The proper firewalls should be developed to avoid intrusions from the internal or external sources.
+
+
+2.Reliability:
+	The system provides storage of all databases on redundant computers with  automatic switchover. 
+	The main pillar of reliability of the system  is the backup of the database 
+	which is conitinously maintained and update to reflect  the most recenet changes.
+
+
+3: Availability:
+	The system should be available at all times.meaning the user can access it using web browser, 
+        only restricted by the down time of the server on which the system runs.
+        In case of a of a hardware failure or database corruption, a replacement page will be shown. 
+	uptime : It mean 24 * 7 availability
+	100%--------------
+	99.9%
+	99.999%
+	99.9999%
+
+
+4: Maintainability:
+	A commercial database is used for maintaining the databae and application server takes care of the site. 
+	The maintainability can be done efficiently.
+
+5.Portability:
+	The application is HTML and scripting language based (Javascript). So the end user part is fully portable and any system using 
+	any web browser should be able to use the features of the system,including any hardware platform that is available 
+	or will be available in the futuer. 
+	An end-user  is used this system on an OS;either it is Windows or Linux.
+	The System shall run on PC, Laptops and PDA.etc.
+	The  technology should be transferable to different environments easily.
+
+6.Accessibility:
+        Only registered users should be allowed to process the orders after authentications.
+        Only GUI access of the system should be permited to end users.
+
+7.Policies:
+       The system should adhere to all the legal formalities of the particular countries.
+       The system should maintain security related to sensitive data.
+
+8.Efficiency:
+	The system should provide good throughput and response to multiple users without burdening the system by using appropriate number of servers.
+
+9.Safety:
+      Software should not harm ethical and environmental conditions of the end users machine.
+
+10.Modulariy:
+      The system should have user friendly interface. 
+      It should be easily updated,modified and reused. 
+
+

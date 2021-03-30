@@ -1,0 +1,32 @@
+project name-Online barber shop
+1. customer                customer.java
+customerid
+emailid
+pass
+first name
+last name
+registered time 
+registered date
+registered shopno
+registered shop address
+given ratings
+
+2. Admin                   admin.java
+emailid
+pass
+first name 
+last name
+role
+
+3.shop                     shop.java
+shopid
+shopname
+appointments
+appointments done
+appointment left
+shop ratings
+
+4 .service                service.java
+service price
+service id
+service name
